@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="35" viewBox="0 0 76 35">
+  <g id="Group_18371" data-name="Group 18371" transform="translate(-872 -2851)">
+    <path id="Rectangle_42" data-name="Rectangle 42" d="M0,0H64A12,12,0,0,1,76,12V35a0,0,0,0,1,0,0H12A12,12,0,0,1,0,23V0A0,0,0,0,1,0,0Z" transform="translate(872 2851)" fill="#ff7913"/>
+    <text id="Rent" transform="translate(896 2874)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Rent</tspan></text>
+  </g>
+</svg>

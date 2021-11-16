@@ -1,0 +1,481 @@
+/* Top section */
+
+#top {
+    background-image: url("../img/home/header-bg.svg");
+    height: 1100px;
+    text-align: center;
+}
+.top-title {
+    padding-top: 6em;
+}
+#top .header {
+    font-size: 60px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 30px;
+}
+#top .header-content {
+    font-size: 25px;
+}
+#top .btn-group {
+    margin-top: 4em;
+}
+.home-header-btn {
+    color: #333333;
+    font-size: 16px;
+    background: #fff;
+    border: none;
+    padding: 10px 45px;
+    border-radius: 5px;
+}
+.home-header-btn.active {
+    color: #fff;
+    background-color: #000;
+}
+.home-header-btn:hover {
+    color: #fff;
+    background-color: #000;
+}
+.has-search {
+    width: 50%;
+    margin: 50px auto 10px;
+}
+.has-search .form-control-feedback {
+    right: initial;
+    left: 0;
+    color: #000;
+}
+
+.has-search .form-control {
+    padding-right: 12px;
+    padding-left: 50px;
+}
+.select-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.header-select .form-control {
+    height: 50px !important;
+    padding: 6px 20px !important;
+}
+.header-select-btn {
+    margin-left: 4em;
+    color: #fff;
+    background: #000;
+    padding: 15px 40px !important;
+    margin-right: 0px !important;
+}
+.header-select-btn span {
+    margin-right: 20px;
+}
+.header-select-btn:hover {
+    color: #fff;
+}
+
+/* Property types */
+
+#property-types {
+    padding: 3em 0 5em;
+}
+.property {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+.property-header {
+    font-size: 45px;
+    font-weight: bold;
+}
+.slide-btns {
+    display: flex;
+}
+.slide-btns button {
+    margin-left: 10px;
+}
+.card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 170px;
+    border-radius: 12px;
+}
+.card-house {
+    background: #f0f1fb;
+}
+.card {
+    display: grid;
+    text-align: center;
+}
+.type-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+}
+.card-content {
+    font-size: 11px;
+    opacity: 0.35;
+}
+.home-search {
+    height: 50px !important;
+}
+.form-control-feedback {
+    line-height: 50px !important;
+    padding-left: 20px;
+}
+.today-properties {
+    margin-top: 4em;
+    padding-left: 0px !important;
+}
+.today-properties .col-md-6 {
+    padding-left: 0px !important;
+}
+.today-properties-title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.today-properties-content span {
+    font-size: 16px;
+    opacity: 0.6;
+    line-height: 2;
+}
+.today-properties-content div {
+    display: flex;
+    margin: 15px 0;
+}
+.today-properties-content p {
+    opacity: 1 !important;
+    margin-top: 10px !important;
+    margin-right: 5px;
+}
+.today-properties-icons {
+    display: flex;
+    margin-top: 2em;
+}
+.today-properties-icon {
+    margin-right: 30px;
+}
+.today-properties-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+.sell-images {
+    display: flex;
+}
+.sell-images div {
+    padding-left: 5px;
+    display: grid;
+}
+.sell-img2 {
+    margin-top: 5px;
+}
+
+/* Top Properties */
+
+#top-properties {
+    background: #f6f6f6;
+    padding: 3em 0 5em;
+}
+.top-card {
+    text-align: start;
+    background: #fff;
+    padding: 0px !important;
+    border-radius: 12px;
+}
+.top-card .card-top-img {
+    width: 100%;
+}
+.top-card .card-title {
+    color: #333333;
+    margin: 5px 0 10px !important;
+}
+.card-text {
+    font-size: 12px;
+    color: #696969;
+}
+.card-price {
+    color: #15bf02;
+    font-size: 16px;
+}
+.card-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.card-icon {
+    display: grid;
+}
+.card-icon div {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.card-icon span {
+    display: grid;
+    margin-top: 10px;
+}
+.card-body {
+    padding: 20px;
+}
+.card-view-btn {
+    background-color: #000;
+    color: #fff;
+    font-size: 10px !important;
+    padding: 10px 20px !important;
+}
+.card-view-btn:hover {
+    color: #fff !important;
+    font-weight: bold;
+}
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-avatar {
+    display: flex;
+}
+.card-avatar div {
+    display: grid;
+    align-items: center;
+    margin-left: 10px;
+}
+.card-avatar-name {
+    font-size: 12px;
+    color: #333333;
+}
+.card-avatar-position {
+    font-size: 10px;
+    color: #333333;
+}
+.card-status {
+    position: absolute;
+    right: 15px;
+}
+
+/* Neighborhood */
+
+#neighborhood {
+    padding: 3em 0 3em;
+}
+.neighbor-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+.neighbor-img {
+    display: flex;
+    width: 25%;
+    margin: 1em 0 3em;
+}
+.neighbor-img div {
+    display: grid;
+    padding-left: 25px;
+}
+.neighbor-img span {
+    font-size: 16px;
+}
+.neighbor-img p {
+    font-size: 24px;
+}
+
+/* Average */
+
+#average {
+    background: #f6f6f6;
+    padding: 5em;
+}
+.average-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.average-icon p {
+    font-size: 42px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 15px;
+}
+.average-icon span {
+    font-size: 16px;
+}
+
+/* Meet agents */
+
+#meet_agent {
+    padding: 3em 0 5em;
+}
+#meet_agent .top-card {
+    border: 1px solid rgb(112, 112, 112, 0.2);
+}
+#meet_agent .card-title {
+    font-size: 25px !important;
+}
+#meet_agent .card-text {
+    display: flex;
+    margin-top: 15px;
+}
+#meet_agent .card-text span {
+    font-size: 16px !important;
+    color: #000;
+}
+#meet_agent .card-text p {
+    font-size: 16px !important;
+    color: #3095ec !important;
+    padding-left: 5px;
+}
+.card-contact {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.card-contact span {
+    color: #000;
+    opacity: 0.5;
+    padding-left: 10px;
+}
+.card-contact-social {
+    margin: 15px 0;
+}
+.card-contact-social img {
+    margin-right: 5px;
+}
+
+/* Testimonial */
+
+#testimonial {
+    background-color: #f6f6f6;
+    padding: 3em 0 9em;
+}
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 3em;
+}
+.team-card p {
+    font-size: 22px !important;
+}
+.team-img {
+    display: flex;
+}
+.team-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+.team-img div {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.testimonial-content {
+    font-size: 16px;
+    color: #696969;
+    padding-top: 10px;
+    display: block;
+}
+.slide-btns a {
+    margin-left: 10px;
+}
+.slide-btns a:hover {
+    text-decoration: none;
+}
+.carousel-indicators {
+    bottom: -6em !important;
+}
+.carousel-indicators li {
+    width: 25px !important;
+    height: 25px !important;
+    background-color: #696969 !important;
+    border-radius: 25px !important;
+    margin-left: 10px !important;
+}
+
+.carousel-indicators .active {
+    width: 25px !important;
+    height: 25px !important;
+    margin: 1 !important;
+    background-color: #000 !important;
+    border-radius: 25px !important;
+    margin-left: 10px !important;
+}
+.property-header p {
+    font-size: 20px !important;
+    color: #696969 !important;
+    margin-top: 20px;
+}
+
+/* Blog */
+#blog {
+    padding: 3em;
+}
+#blog .top-card {
+    background: #f6f6f6 !important;
+}
+#blog .card-body {
+    padding: 30px !important;
+}
+#blog .card-title {
+    font-size: 24px !important;
+    line-height: 1.3;
+    margin-bottom: 15px !important;
+}
+#blog .card-text {
+    font-size: 16px !important;
+}
+#blog .card-view-btn {
+    padding: 10px 40px !important;
+    margin-top: 20px;
+}
+.articles a {
+    font-size: 20px !important;
+    color: #000 !important;
+    text-decoration: underline !important;
+}
+.articles a:hover {
+    font-weight: bold;
+}
+
+@media (max-width: 1366px) {
+    .has-search {
+        width: 60%;
+    }
+    .select-group {
+        width: 60%;
+    }
+    .card-img {
+        width: 140px;
+        height: 140px;
+    }
+    #top .header {
+        font-size: 50px;
+    }
+    .today-properties-images img {
+        width: 150px;
+    }
+    .sell-images img {
+        width: 300px;
+    }
+    .today-properties-content div {
+        margin: 13px 0;
+    }
+
+    #blog .card-title {
+        font-size: 22px !important;
+    }
+}
