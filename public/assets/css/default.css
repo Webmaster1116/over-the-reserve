@@ -145,4 +145,10 @@ footer p {
     header li a {
         font-size: 20px;
     }
+    .footer-copyright-content p {
+        font-size: 16px !important;
+    }
+    .copyright-img a {
+        font-size: 16px !important;
+    }
 }

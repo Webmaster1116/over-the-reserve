@@ -47,50 +47,31 @@ class CustomAuthController extends Controller
                         ->withInput();
         }
     }
-
-
-
-    public function registration()
-    {
-        return view('registration');
-    }
       
 
     public function customRegistration(Request $request)
     {  
-        $request->validate([
+        $validator = Validator::make($request->all(), [
             'email' => 'required|email|unique:users',
-            'password' => 'required|min:6',
+            'password' => 'required|min:6|confirmed',
         ]);
+
+        if ($validator->fails()) {
+            return redirect('register')
+                        ->withErrors($validator)
+                        ->withInput();
+        }
            
         $data = $request->all();
         User::create([
             'name' => $data['name'],
             'email' => $data['email'],
+            'phone' => $data['phone'],
             'password' => Hash::make($data['password']),
           ]);
          
         return redirect("/login")->withSuccess('You have signed-in');
     }
-
-
-    public function create(array $data)
-    {
-      return User::create([
-        'email' => $data['email'],
-        'password' => Hash::make($data['password'])
-      ]);
-    }    
-    
-
-    // public function dashboard()
-    // {
-    //     if(Auth::check()){
-    //         return view('dashboard');
-    //     }
-  
-    //     return redirect("login")->withSuccess('You are not allowed to access');
-    // }
     
 
     public function signOut() {
