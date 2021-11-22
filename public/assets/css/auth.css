@@ -121,6 +121,28 @@
     font-size: 20px;
     font-weight: bold;
 }
+.continue-btn {
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    padding: 15px 9em;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+}
+.success-password {
+    text-align: center;
+}
+.success-password div {
+    font-size: 32px;
+    font-weight: 400;
+    color: #333333;
+}
+.success-password span {
+    font-size: 42px;
+    font-weight: 600;
+    color: #333333;
+}
 @media (max-width: 1535px) {
     .login-header div {
         font-size: 32px;
@@ -140,6 +162,9 @@
 @media (max-width: 1024px) {
     .login-form {
         width: 70%;
+    }
+    .continue-btn {
+        padding: 15px 3em;
     }
 }
 @media (max-width: 640px) {
@@ -181,5 +206,24 @@
     }
     .footer-subscribe input {
         width: 50%;
+    }
+    .continue-btn {
+        padding: 15px 2em;
+        border-radius: 5px;
+        border: none;
+        font-size: 24px;
+    }
+    .success-password {
+        text-align: center;
+    }
+    .success-password div {
+        font-size: 32px;
+        font-weight: 400;
+        color: #333333;
+    }
+    .success-password span {
+        font-size: 42px;
+        font-weight: 600;
+        color: #333333;
     }
 }

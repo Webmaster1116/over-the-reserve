@@ -1,0 +1,113 @@
+#terms {
+    padding: 5em 0;
+}
+.terms-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.terms-header span {
+    font-size: 42px;
+    font-weight: 500;
+    color: #333333;
+}
+.terms-header p {
+    font-size: 20px;
+    color: #333333;
+}
+.terms-body {
+    margin-top: 4em;
+}
+.terms-sidebar {
+    background: #f8fcfc;
+    padding: 20px;
+    border-radius: 12px;
+}
+.terms-sidebar li {
+    list-style: none;
+    font-size: 20px;
+    padding: 15px 0;
+}
+.terms-sidebar li a {
+    color: #696969 !important;
+}
+.terms-sidebar li a:hover {
+    color: #4169e2 !important;
+    text-decoration: none !important;
+}
+.terms-sidebar li .active {
+    color: #4169e2 !important;
+    text-decoration: none !important;
+}
+.terms-content-body {
+    padding-left: 20px;
+    color: #333333;
+}
+.terms-content-body span {
+    color: #696969 !important;
+    font-size: 16px !important;
+    display: block;
+    line-height: 2;
+}
+.terms-content-header {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.terms-question div {
+    font-size: 24px;
+}
+.terms-question span {
+    font-size: 16px !important;
+    line-height: 2;
+}
+.terms-title {
+    margin: 30px 0 20px;
+}
+.terms-lists {
+    display: flex;
+    align-items: center;
+}
+.terms-lists img {
+    margin-right: 10px;
+}
+@media (max-width: 1366px) {
+    #terms .container {
+        width: 90vw !important;
+    }
+    .terms-lists {
+        display: flex;
+        align-items: baseline;
+    }
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 640px) {
+}
+@media (max-width: 480px) {
+    .terms-header p {
+        font-size: 12px;
+        margin: 0 !important;
+    }
+    .terms-header span {
+        font-size: 20px;
+    }
+    .terms-sidebar li {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    .terms-content-header {
+        margin-top: 15px;
+    }
+    .terms-content-body span {
+        font-size: 12px !important;
+    }
+    .terms-question div {
+        font-size: 20px;
+    }
+    .terms-title {
+        margin: 20px 0 10px;
+    }
+    .terms-content-header {
+        font-size: 22px;
+    }
+}

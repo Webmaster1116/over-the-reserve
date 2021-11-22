@@ -28,10 +28,24 @@ Route::get('/register', function () {
 Route::get('/forgot-password', function () {
     return view('forgot-password');
 });
+Route::get('/reset-password', function () {
+    return view('reset-password');
+});
+Route::get('/success-reset-password', function () {
+    return view('success-reset-password');
+});
 Route::get('/check-email', function () {
     return view('check-email');
 });
-
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/terms-conditions', function () {
+    return view('terms');
+});
+Route::get('/privacy-policy', function () {
+    return view('privacy');
+});
 
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom'); 
@@ -41,4 +55,7 @@ Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout')
 Route::post('forget-password', [ForgotPasswordController::class, 'submitForgetPasswordForm'])->name('forget.password.post'); 
 Route::get('reset-password/{token}', [ForgotPasswordController::class, 'showResetPasswordForm'])->name('reset.password.get');
 Route::post('reset-password', [ForgotPasswordController::class, 'submitResetPasswordForm'])->name('reset.password.post');
+
+Route::post('contact', [ContactController::class, 'contact'])->name('contact.conversation'); 
+
 

@@ -201,11 +201,11 @@
           </div>
           <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
             <div class="copyright-img text-right">
-            <a href="/privacy"
+            <a href="/privacy-policy"
                 >Privacy Policy |</a
               >
-              <a href="/terms"
-                > Term & Conditions</a
+              <a href="/terms-conditions"
+                > Terms & Conditions</a
               >
             </div>
           </div>

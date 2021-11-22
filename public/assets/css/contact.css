@@ -1,0 +1,107 @@
+#contact-info {
+    padding: 3em 0;
+    color: #3d3d3d;
+}
+
+.info-card {
+    text-align: center;
+    background: #f6f6f6;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.info-card div {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.info-card div {
+    font-size: 22px;
+}
+
+#contact-conversation {
+    padding: 3em 0;
+    
+}
+.contact-map img {
+    width: 100%;
+}
+.conversation-header {
+    font-size: 42px;
+    margin-bottom: 1.5em;
+}
+.contact-send {
+    background-color: #000;
+    width: 40%;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-map {
+    width: 90%;
+}
+.contact-message {
+    width: 90%;
+    float: right;
+}
+#contact-conversation .form-control {
+    padding: 15px 30px;
+}
+#contact-conversation input {
+    height: 85px !important;
+}
+#contact-conversation textarea {
+    height: 240px !important;
+}
+#contact-conversation .form-group {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1366px) {
+    .conversation-header {
+        font-size: 36px;
+        margin-bottom: 0.5em;
+    }
+    #contact-conversation input {
+        height: 50px !important;
+    }
+    #contact-conversation textarea {
+        height: 150px !important;
+    }
+}
+@media (max-width: 1024px) {
+    #contact-conversation textarea {
+        height: 135px !important;
+    }
+    #contact-conversation .form-group {
+        margin-bottom: 10px;
+    }
+    .contact-send {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 640px) {
+    .contact-map {
+        width: 100%;
+    }
+    .contact-message {
+        width: 100%;
+        float: right;
+        margin-top: 3em;
+    }
+}
+@media (max-width: 480px) {
+    .conversation-header {
+        font-size: 32px;
+    }
+    .contact-send {
+        font-size: 16px;
+    }
+}
