@@ -19,14 +19,57 @@
           ><img src="{{asset('assets/img/home/logo.svg')}}"
         /></a>
       </div>
-      <ul class="nav navbar-nav navbar-right">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse in" id="bs-example-navbar-collapse-1" aria-expanded="false" style="">
+        <ul class="nav navbar-nav nav-info">
+          <li>
+            <a href="/"><span>Home</span></a>
+          </li>
+          <li>
+            <a href="/properties"
+              ><span>Properties</span></a
+            >
+          </li>
+          <li>
+            <a href="blog"
+              ><span>Blog</span></a
+            >
+          </li>
+          <li>
+            <a href="agent"
+              ><span>Agent</span></a
+            >
+          </li>
+
+          @if (!Auth::user())
+          <div>
+            <a href="/login" class="header-btn header-login"><img src="{{asset('assets/img/home/icon-user.svg')}}" />Login</a>
+            <a href="/register" class="header-btn header-register">Register</a>
+          </div>
+          @else
+          <div class="user-avatar">
+            
+              <img src="{{asset('assets/img/home/user-avatar.svg')}}" />
+              <a
+              class="nav-link nav-avatar"
+              data-toggle="modal"
+              data-target="#userModal"
+              >{{Auth::user()->name}} &nbsp <i class="fa fa-angle-down"></i></a>
+            
+          </div>
+          @endif
+        </ul>
+      </div>
+      <!-- <ul class="nav navbar-nav navbar-right">
         <li>
           <a href="/"><span>Home</span></a>
-        </li>
-        <li>
-          <a href="/about"
-            ><span>About Us</span></a
-          >
         </li>
         <li>
           <a href="/properties"
@@ -39,8 +82,8 @@
           >
         </li>
         <li>
-          <a href="contact"
-            ><span>Contact Us</span></a
+          <a href="agent"
+            ><span>Agent</span></a
           >
         </li>
 
@@ -50,12 +93,19 @@
           <a href="/register" class="header-btn header-register">Register</a>
         </div>
         @else
-        <div>
-          <a href="{{ route('signout') }}" class="header-btn header-login"><img src="{{asset('assets/img/home/icon-user.svg')}}" />Logout</a>
+        <div class="user-avatar">
+          
+            <img src="{{asset('assets/img/home/user-avatar.svg')}}" />
+            <a
+            class="nav-link nav-avatar"
+            data-toggle="modal"
+            data-target="#userModal"
+            >{{Auth::user()->name}} &nbsp <i class="fa fa-angle-down"></i></a>
+          
         </div>
         @endif
        
-      </ul>
+      </ul> -->
 
   </div>
 </header>
@@ -94,11 +144,11 @@
               </div>
               <div class="footer-wrapper">
                 <ul class="footer-resources">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="/about">About</a></li>
+                  <li><a href="/contact">Contact</a></li>
                   <li><a href="#">Carrers</a></li>
                   <li><a href="#">News</a></li>
-                  <li><a href="#">Faq</a></li>
+                  <li><a href="/faq">Faq</a></li>
                   <li><a href="#">Help Center</a></li>
                   <li><a href="#">Sitemap</a></li>
                 </ul>
@@ -151,10 +201,10 @@
           </div>
           <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
             <div class="copyright-img text-right">
-            <a href="javascript:void(0)"
+            <a href="/privacy"
                 >Privacy Policy |</a
               >
-              <a href="javascript:void(0)"
+              <a href="/terms"
                 > Term & Conditions</a
               >
             </div>
@@ -163,5 +213,24 @@
       </div>
     </div>
   </footer>
+  <div class="modal fade" id="userModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="body-content">
+            <img src="{{asset('assets/img/auth/user.svg')}}" />
+            <a href="/profile">Profile</a>
+          </div>
+          <div class="body-content body-logout">
+            <img src="{{asset('assets/img/auth/signout.svg')}}" />
+            <a href="{{ route('signout') }}"
+              >Logout</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

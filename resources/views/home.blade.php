@@ -2,11 +2,11 @@
 <link rel="stylesheet" href="assets/css/home.css" />
 @section('content')
 <section id="top">
-  <div class="top-title">
+  <div class="container top-title">
     <span class="header">Explore Our Property Reserve</span>
     <span class="header-content">The best way to solve those property barriers</span>
   </div>
-  <div class="btn-group">
+  <div class="container btn-group">
     <button class="home-header-btn active">Buy</button>
     <button class="home-header-btn">Rent</button>
     <button class="home-header-btn">Sell</button>
@@ -55,7 +55,7 @@
         <option>type1</option>
       </select>
     </div>
-    <div>
+    <div class="select-search">
       <a class="header-btn header-select-btn"><span class="fa fa-search"></span>Search</a>
     </div>
   </div>
@@ -233,8 +233,8 @@
         </div>
       </div>
     </div>
-    <div class="today-properties col-md-12">
-      <div class="col-md-6">
+    <div class="today-properties">
+      <div class="col-md-6 col-sm-12">
         <div class="today-properties-title">Today Sells Properties</div>
         <div class="today-properties-content">
           <span>Houzez allow you to design unlimited panels and real estate custom 
@@ -281,7 +281,7 @@
           <img src="{{asset('assets/img/home/properties-img3.svg')}}" />
         </div>
       </div>
-      <div class="col-md-6 sell-images">
+      <div class="col-md-6 col-sm-12 sell-images">
         <img src="{{asset('assets/img/home/sell-image1.svg')}}" />
         <div>
           <img src="{{asset('assets/img/home/sell-image2.svg')}}" />
@@ -304,7 +304,7 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <div class="top-cards col-md-12">
+          <div class="top-cards">
             <div class="col-md-3">
               <div class="top-card card ">
                 <img class="card-top-img" src="{{asset('assets/img/home/top-card1.svg')}}" />
@@ -485,7 +485,7 @@
         </div>
 
         <div class="item">
-          <div class="top-cards col-md-12">
+          <div class="top-cards">
             <div class="col-md-3">
               <div class="top-card card ">
                 <img class="card-top-img" src="{{asset('assets/img/home/top-card1.svg')}}" />
@@ -666,7 +666,7 @@
         </div>
 
         <div class="item">
-          <div class="top-cards col-md-12">
+          <div class="top-cards">
             <div class="col-md-3">
               <div class="top-card card ">
                 <img class="card-top-img" src="{{asset('assets/img/home/top-card1.svg')}}" />
@@ -961,7 +961,7 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <div class="top-cards col-md-12">
+          <div class="top-cards">
             <div class="col-md-3">
               <div class="top-card card ">
                 <img class="card-top-img" src="{{asset('assets/img/home/agent1.svg')}}" />
@@ -1082,38 +1082,9 @@
         </div>
 
         <div class="item">
-          <div class="top-cards col-md-12">
+          <div class="top-cards">
             <div class="col-md-3">
               <div class="top-card card ">
-                <img class="card-top-img" src="{{asset('assets/img/home/agent1.svg')}}" />
-                <div class="card-body">
-                  <h5 class="card-title">Tobby Rashford</h5>
-                  <div class="card-text"><span>Compan agent at</span><p>Finderland JSC</p></div>
-                  <div class="card-contacts">
-                    <div class="card-contact">
-                      <div>
-                        <img src="{{asset('assets/img/home/icon-contact-mail.svg')}}" />
-                      </div>
-                      <span>tobby@finderland.com</span>
-                    </div>
-                    <div class="card-contact">
-                      <div>
-                        <img src="{{asset('assets/img/home/icon-contact-phone.svg')}}" />
-                      </div>
-                      <span>+65 0231 965 965</span>
-                    </div>
-                    <div class="card-contact-social">
-                      <img src="{{asset('assets/img/home/icon-contact-twitter.svg')}}"/>
-                      <img src="{{asset('assets/img/home/icon-contact-facebook.svg')}}"/>
-                      <img src="{{asset('assets/img/home/icon-contact-media.svg')}}"/>
-                      <img src="{{asset('assets/img/home/icon-contact-camera.svg')}}"/>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="top-card card">
                 <img class="card-top-img" src="{{asset('assets/img/home/agent2.svg')}}" />
                 <div class="card-body">
                   <h5 class="card-title">Tobby Rashford</h5>
@@ -1143,7 +1114,7 @@
             </div>
             <div class="col-md-3">
               <div class="top-card card">
-                <img class="card-top-img" src="{{asset('assets/img/home/agent3.svg')}}" />
+                <img class="card-top-img" src="{{asset('assets/img/home/agent1.svg')}}" />
                 <div class="card-body">
                   <h5 class="card-title">Tobby Rashford</h5>
                   <div class="card-text"><span>Compan agent at</span><p>Finderland JSC</p></div>
@@ -1173,6 +1144,35 @@
             <div class="col-md-3">
               <div class="top-card card">
                 <img class="card-top-img" src="{{asset('assets/img/home/agent4.svg')}}" />
+                <div class="card-body">
+                  <h5 class="card-title">Tobby Rashford</h5>
+                  <div class="card-text"><span>Compan agent at</span><p>Finderland JSC</p></div>
+                  <div class="card-contacts">
+                    <div class="card-contact">
+                      <div>
+                        <img src="{{asset('assets/img/home/icon-contact-mail.svg')}}" />
+                      </div>
+                      <span>tobby@finderland.com</span>
+                    </div>
+                    <div class="card-contact">
+                      <div>
+                        <img src="{{asset('assets/img/home/icon-contact-phone.svg')}}" />
+                      </div>
+                      <span>+65 0231 965 965</span>
+                    </div>
+                    <div class="card-contact-social">
+                      <img src="{{asset('assets/img/home/icon-contact-twitter.svg')}}"/>
+                      <img src="{{asset('assets/img/home/icon-contact-facebook.svg')}}"/>
+                      <img src="{{asset('assets/img/home/icon-contact-media.svg')}}"/>
+                      <img src="{{asset('assets/img/home/icon-contact-camera.svg')}}"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="top-card card">
+                <img class="card-top-img" src="{{asset('assets/img/home/agent3.svg')}}" />
                 <div class="card-body">
                   <h5 class="card-title">Tobby Rashford</h5>
                   <div class="card-text"><span>Compan agent at</span><p>Finderland JSC</p></div>
@@ -1203,10 +1203,10 @@
         </div>
       
         <div class="item">
-          <div class="top-cards col-md-12">
+          <div class="top-cards">
             <div class="col-md-3">
               <div class="top-card card ">
-                <img class="card-top-img" src="{{asset('assets/img/home/agent1.svg')}}" />
+                <img class="card-top-img" src="{{asset('assets/img/home/agent4.svg')}}" />
                 <div class="card-body">
                   <h5 class="card-title">Tobby Rashford</h5>
                   <div class="card-text"><span>Compan agent at</span><p>Finderland JSC</p></div>
@@ -1293,7 +1293,7 @@
             </div>
             <div class="col-md-3">
               <div class="top-card card">
-                <img class="card-top-img" src="{{asset('assets/img/home/agent4.svg')}}" />
+                <img class="card-top-img" src="{{asset('assets/img/home/agent1.svg')}}" />
                 <div class="card-body">
                   <h5 class="card-title">Tobby Rashford</h5>
                   <div class="card-text"><span>Compan agent at</span><p>Finderland JSC</p></div>
@@ -1347,7 +1347,7 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <div class="team-cards col-md-12">
+          <div class="team-cards">
             <div class="col-md-6">
               <div class="team-card">
                 <div class="team-imgs">
@@ -1394,7 +1394,7 @@
         </div>
 
         <div class="item">
-          <div class="team-cards col-md-12">
+          <div class="team-cards">
             <div class="col-md-6">
               <div class="team-card">
                 <div class="team-imgs">
@@ -1441,7 +1441,7 @@
         </div>
       
         <div class="item">
-          <div class="team-cards col-md-12">
+          <div class="team-cards">
             <div class="col-md-6">
               <div class="team-card">
                 <div class="team-imgs">
@@ -1498,7 +1498,7 @@
         <a href="#">See all Articles</a>
       </div>
     </div>
-    <div class="top-cards col-md-12">
+    <div class="top-cards">
       <div class="col-md-4">
         <div class="top-card card ">
           <img class="card-top-img" src="{{asset('assets/img/home/blog-img1.svg')}}" />

@@ -16,8 +16,9 @@ header {
 }
 header li a {
     color: #000;
-    font-size: 25px;
+    font-size: 23px;
     text-decoration: none;
+    padding: 10 25px !important;
 }
 header li a:hover {
     font-weight: bold;
@@ -31,6 +32,9 @@ header li a:hover {
     justify-content: center;
     flex-wrap: wrap;
 }
+/* .navbar-collapse.collapse {
+    display: none;
+} */
 .header-btn {
     font-family: "Quicksand";
     padding: 10px 20px;
@@ -40,7 +44,7 @@ header li a:hover {
     margin-right: 10px;
 }
 .header-login {
-    margin-left: 20px;
+    margin-left: 30px;
     color: #fff;
     background: #000;
 }
@@ -141,6 +145,62 @@ footer p {
 .copyright-img a:hover {
     text-decoration: none !important;
 }
+.user-avatar {
+    margin-left: 30px;
+}
+.user-avatar a {
+    font-size: 20px;
+    color: #696969;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.user-avatar a:hover {
+    text-decoration: none;
+}
+#userModal .modal-dialog {
+    width: 165px !important;
+    float: right;
+    margin-right: 12em;
+    margin-top: 8.2em;
+}
+.modal-content {
+    border-radius: 12px;
+}
+#userModal a {
+    color: #333333;
+    font-size: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.modal-body {
+    padding: 20px !important;
+}
+#userModal .body-content {
+    display: flex;
+}
+#userModal .body-logout {
+    padding-top: 20px;
+}
+.error-404 {
+    text-align: center;
+}
+.error-404 div {
+    font-size: 36px;
+    font-weight: bold;
+    color: #3a3a3a;
+    margin: 20px 0;
+}
+.error-404 span {
+    font-size: 22px;
+    color: #7d7d7d;
+}
+.error-404 span a {
+    text-decoration: underline;
+    color: #4169e2 !important;
+}
+.error-404 span a:hover {
+    font-weight: bold;
+}
 @media (max-width: 1366px) {
     header li a {
         font-size: 20px;
@@ -150,5 +210,92 @@ footer p {
     }
     .copyright-img a {
         font-size: 16px !important;
+    }
+    .modal-dialog {
+        margin-right: 8em;
+    }
+    .header-logo img {
+        width: 100px;
+    }
+    .footer-subscribe input {
+        width: 50%;
+    }
+}
+@media (max-width: 1024px) {
+    header li a {
+        font-size: 16px;
+    }
+    .container {
+        width: 90vw !important;
+    }
+}
+@media (max-width: 640px) {
+}
+@media (max-width: 840px) {
+    .container {
+        width: 90vw !important;
+    }
+    .navbar-toggle {
+        background-color: #000 !important;
+    }
+    .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .navbar-right {
+        display: none;
+    }
+    .navbar-nav {
+        display: block;
+    }
+    .navbar-nav div {
+        margin-top: 20px;
+    }
+    .navbar-header {
+        width: 50%;
+    }
+    .header-login {
+        margin-left: 25px;
+    }
+    .header-btn {
+        padding: 5px 10px;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        width: 90vw !important;
+    }
+    .navbar-toggle {
+        background-color: #000 !important;
+    }
+    .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .footer-subscribe input {
+        width: 50%;
+    }
+    .footer-title img {
+        width: 100px;
+    }
+    footer ul {
+        margin: 20px 0;
+        font-size: 12px;
+    }
+    .footer-social {
+        font-size: 12px;
+    }
+    footer p {
+        font-size: 20px;
+    }
+    .footer-social-icons {
+        margin-bottom: 20px;
+    }
+    footer ul li {
+        font-size: 12px;
+    }
+    .copyright-img a {
+        font-size: 12px !important;
+    }
+    .footer-copyright-content p {
+        font-size: 12px !important;
     }
 }

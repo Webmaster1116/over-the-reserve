@@ -27,6 +27,7 @@
     border: none;
     padding: 10px 45px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 .home-header-btn.active {
     color: #fff;
@@ -276,8 +277,7 @@
 }
 .neighbor-img {
     display: flex;
-    width: 25%;
-    margin: 1em 0 3em;
+    margin: 1em 3em 3em;
 }
 .neighbor-img div {
     display: grid;
@@ -477,5 +477,178 @@
 
     #blog .card-title {
         font-size: 22px !important;
+    }
+}
+@media (max-width: 1024px) {
+    .today-properties .col-md-6 {
+        margin-bottom: 1em;
+    }
+}
+@media (max-width: 640px) {
+}
+@media (max-width: 840px) {
+}
+@media (min-width: 480px) and (max-width: 640px) {
+    .today-properties-images img {
+        width: 120px !important;
+    }
+    .sell-images img {
+        width: 220px;
+    }
+}
+@media (max-width: 480px) {
+    .top-title {
+        padding-top: 2em;
+    }
+    #top .header {
+        font-size: 32px;
+    }
+    #top .header-content {
+        font-size: 18px;
+    }
+    #top .btn-group {
+        margin-top: 2em;
+    }
+    .home-header-btn {
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+    .has-search {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .has-search .form-control {
+        font-size: 12px !important;
+    }
+    .select-group {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .header-select {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .header-select .form-control {
+        font-size: 12px !important;
+    }
+    .select-search {
+        margin: auto;
+        margin-top: 30px;
+    }
+    .header-select-btn {
+        margin-left: 0px;
+    }
+    .property-header {
+        font-size: 26px !important;
+    }
+    .property-header p {
+        font-size: 17px !important;
+    }
+    .card-title {
+        font-size: 12px;
+        margin: 0;
+    }
+    .card-img {
+        width: 100px;
+        height: 100px;
+    }
+    .card {
+        margin-bottom: 1em;
+    }
+    .today-properties-title {
+        font-size: 26px;
+    }
+    .today-properties-content span {
+        font-size: 12px;
+    }
+    .today-properties-content p {
+        margin-top: 5px !important;
+    }
+    .today-properties-icons {
+        flex-wrap: wrap;
+    }
+    .today-properties-icon {
+        margin-bottom: 10px;
+    }
+    #average {
+        padding: 2em 0;
+    }
+    .average-icon img {
+        width: 30px;
+    }
+    .average-icon p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .average-icon span {
+        font-size: 8px;
+    }
+    #testimonial {
+        padding: 3em 0 5em;
+    }
+    .team-img img {
+        width: 60px !important;
+    }
+    .team-card p {
+        font-size: 12px !important;
+    }
+    .team-card span {
+        font-size: 10px !important;
+    }
+    .team-imgs img {
+        width: 40px;
+    }
+    .team-card {
+        padding: 1.5em;
+        margin-top: 10px;
+    }
+    .team-img div {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .carousel-indicators li {
+        width: 15px !important;
+        height: 15px !important;
+    }
+    .carousel-indicators .active {
+        width: 15px !important;
+        height: 15px !important;
+    }
+    .carousel-indicators {
+        bottom: -4em !important;
+    }
+    #blog .card-title {
+        font-size: 14px !important;
+    }
+    #blog .card-text {
+        font-size: 10px !important;
+    }
+    .articles a {
+        font-size: 14px !important;
+    }
+    #meet_agent .card-title {
+        font-size: 18px !important;
+    }
+    #meet_agent .card-text span {
+        font-size: 12px !important;
+        color: #000;
+    }
+    #meet_agent .card-text span {
+        font-size: 12px !important;
+        color: #000;
+    }
+    .neighbor-img p {
+        font-size: 20px;
+    }
+    .neighbor-img span {
+        font-size: 12px;
+    }
+    .sell-images img {
+        width: 150px;
+    }
+    .today-properties-images img {
+        width: 90px;
     }
 }
