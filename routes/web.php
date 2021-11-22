@@ -46,6 +46,9 @@ Route::get('/terms-conditions', function () {
 Route::get('/privacy-policy', function () {
     return view('privacy');
 });
+Route::get('/faq', function () {
+    return view('faq');
+});
 
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom'); 
