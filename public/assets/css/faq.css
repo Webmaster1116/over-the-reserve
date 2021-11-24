@@ -68,4 +68,7 @@ section {
     section {
         margin: 0;
     }
+    .faq-image img {
+        width: 100%;
+    }
 }

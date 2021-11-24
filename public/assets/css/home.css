@@ -478,6 +478,12 @@
     #blog .card-title {
         font-size: 22px !important;
     }
+    .card-icon span {
+        font-size: 12px;
+    }
+    .card-title {
+        font-size: 14px;
+    }
 }
 @media (max-width: 1024px) {
     .today-properties .col-md-6 {

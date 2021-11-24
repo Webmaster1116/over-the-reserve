@@ -218,6 +218,9 @@ footer p {
     .footer-subscribe input {
         width: 50%;
     }
+    .container {
+        width: 90vw !important;
+    }
 }
 @media (max-width: 1024px) {
     header li a {

@@ -69,7 +69,7 @@
         <a class="form-control next-btn" href="#typeCarousel" data-slide="next">></a>
       </div>
     </div>
-    <div id="typeCarousel" class="carousel slide" data-ride="carousel">
+    <div id="typeCarousel" class="carousel slide" data-interval="false">
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
@@ -300,7 +300,7 @@
         <a class="form-control next-btn" href="#topCarousel" data-slide="next">></a>
       </div>
     </div>
-    <div id="topCarousel" class="carousel slide" data-ride="carousel">
+    <div id="topCarousel" class="carousel slide" data-interval="false">
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
@@ -957,7 +957,7 @@
         <a class="form-control next-btn" href="#agentCarousel" data-slide="next">></a>
       </div>
     </div>
-    <div id="agentCarousel" class="carousel slide" data-ride="carousel">
+    <div id="agentCarousel" class="carousel slide" data-interval="false">
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
@@ -1336,7 +1336,7 @@
         <a class="form-control next-btn" href="#testimonialCarousel" data-slide="next">></a>
       </div>
     </div> 
-    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+    <div id="testimonialCarousel" class="carousel slide" data-interval="false">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>

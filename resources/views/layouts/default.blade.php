@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 
   <link rel="stylesheet" href="{{asset('assets/css/default.css')}}">
   <link rel="stylesheet" href="{{asset('assets/css/font-awesome/css/font-awesome.min.css')}}">
@@ -119,19 +120,16 @@
               <img src="{{asset('assets/img/home/logo.svg')}}"/>
             </div>
             <div class="footer-wrapper">
-              <ul>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.</ul>
+              <ul>Property finding solutions solved. Use our platform to ease the pressure of finding the perfect property.</ul>
               <div class="footer-social">
-                <div><img src="{{asset('assets/img/home/icon-map.svg')}}" />Brooklyn, Store in Woodside, Western Cape</div>
-                <div><img src="{{asset('assets/img/home/icon-phone.svg')}}" />+0123-456789, +0123-456789</div>
-                <div><img src="{{asset('assets/img/home/icon-mail.svg')}}" />example@example.com</div>
+                <div><img src="{{asset('assets/img/home/icon-map.svg')}}" />Sydney, Australia</div>
+                <div><img src="{{asset('assets/img/home/icon-phone.svg')}}" />Available 24/7</div>
+                <div><img src="{{asset('assets/img/home/icon-mail.svg')}}" />info@overthereserve.com</div>
               </div>
               <div class="footer-social-icons">
                 <img src="{{asset('assets/img/home/icon-facebook.svg')}}" />
-                <img src="{{asset('assets/img/home/icon-camera.svg')}}" />
                 <img src="{{asset('assets/img/home/icon-linkedin.svg')}}" />
                 <img src="{{asset('assets/img/home/icon-media.svg')}}" />
-                <img src="{{asset('assets/img/home/icon-twitter.svg')}}" />
-                <img src="{{asset('assets/img/home/icon-pinterest.svg')}}" />
               </div>
             </div>
           </div>
@@ -196,7 +194,7 @@
         <div class="row">
           <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 mar_b-30">
             <div class="copyright text-left">
-              <p>Copyright © 2021 Grange. All Rights Reserved.</p>
+              <p>Over The Reserve powered by KPVE Group</p>
             </div>
           </div>
           <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
