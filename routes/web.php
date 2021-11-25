@@ -25,6 +25,9 @@ Route::get('/about', function () {
 Route::get('/properties', function () {
     return view('properties');
 });
+Route::get('/blog', function () {
+    return view('blog');
+});
 Route::get('/register', function () {
     return view('register');
 });
